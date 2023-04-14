@@ -102,7 +102,7 @@ const handleSubmit = async(e) =>{
     const err= await response.text;
     
     messageDiv.innerHTML = "Am sorry, Something Went Wrong. Am not in my correct state of mind at the moment";
-    alert(err);
+ 
   }
 }
 
